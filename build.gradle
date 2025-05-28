@@ -2,8 +2,8 @@ plugins {
     id 'java'
 }
 
-group 'com.api.testing'
-version '1.0-SNAPSHOT'
+group = 'com.api.testing'
+version = '1.0-SNAPSHOT'
 
 repositories {
     mavenCentral()
@@ -23,19 +23,18 @@ dependencies {
     implementation 'commons-io:commons-io:2.11.0'
 }
 
-test {
-    // useJUnitPlatform()
+tasks.named('test') {
     include '**/TestRunner.class'
     testLogging {
         events "passed", "skipped", "failed"
         showStandardStreams = true
     }
     systemProperty "cucumber.publish.enabled", "true"
-    systemProperty "cucumber.publish.quiet", "false"
+    systemProperty "cucumber.publish.quiet", "true"
 }
 
-task generateCucumberReport(type: JavaExec) {
-    main = 'ReportGenerator'
+tasks.register('generateCucumberReport', JavaExec) {
+    mainClass = 'ReportGenerator'
     classpath = sourceSets.test.runtimeClasspath
     dependsOn test
 } 

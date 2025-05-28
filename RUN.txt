@@ -1,1 +1,6 @@
-.\gradlew.bat clean test generateCucumberReport
+First, run the tests and generate the report:
+	.\gradlew.bat clean test generateCucumberReport
+
+
+Then, open the HTML report:
+	start build/reports/cucumber-advanced/cucumber-html-reports/overview-features.html
