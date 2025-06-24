@@ -113,6 +113,7 @@ Feel free to submit issues and enhancement requests. Contributions are welcome!
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 📬 Contact
-Email: sangamnath.professional@gmail.com
-LinkedIn: https://www.linkedin.com/in/sangamnath-ingalalli/
-GitHub: https://github.com/SangamnathIngalalli
+
+- 📧 Email: [sangamnath.professional@gmail.com](mailto:sangamnath.professional@gmail.com)
+- 💼 LinkedIn: [Sangamnath Ingalalli](https://www.linkedin.com/in/sangamnath-ingalalli/)
+- 💻 GitHub: [SangamnathIngalalli](https://github.com/SangamnathIngalalli)
