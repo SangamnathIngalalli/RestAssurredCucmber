@@ -108,9 +108,6 @@ Feature: User API Testing
 
 Feel free to submit issues and enhancement requests. Contributions are welcome!
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 📬 Contact
 
