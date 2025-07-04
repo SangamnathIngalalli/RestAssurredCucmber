@@ -1,4 +1,14 @@
-# REST API Test Automation Framework
+.\gradlew test --tests runners.TestRunner
+
+
+.\gradlew generateCucumberReport
+
+
+strat build/reports/cucumber-advanced/cucumber-html-reports/overview-features.html
+
+
+
+ REST API Test Automation Framework
 
 A robust and scalable API test automation framework built with RestAssured, Cucumber, and JUnit 5. This framework follows industry best practices for API testing and serves as a showcase of modern test automation skills.
 
